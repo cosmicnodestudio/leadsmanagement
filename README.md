@@ -102,8 +102,7 @@ cd leadsmanagement
 ### 2️⃣ Configure environment variables
 
 ```bash
-# Review and adjust .env if needed
-cat .env
+cp .env.example .env
 ```
 
 Environment variables are already configured with default development values.
