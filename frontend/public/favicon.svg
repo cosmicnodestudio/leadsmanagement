@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4f46e5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2563eb;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100" height="100" fill="url(#grad1)" rx="20"/>
+
+  <!-- Briefcase shape -->
+  <g fill="white">
+    <!-- Briefcase body -->
+    <path d="M 25 40 L 25 65 Q 25 75 35 75 L 65 75 Q 75 75 75 65 L 75 40 Z" stroke="white" stroke-width="2" fill="none"/>
+    <!-- Briefcase top -->
+    <rect x="30" y="28" width="40" height="12" rx="3" fill="white"/>
+    <!-- Briefcase handle -->
+    <path d="M 40 28 Q 40 18 50 18 Q 60 18 60 28" stroke="white" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <!-- Document inside -->
+    <rect x="35" y="50" width="12" height="15" fill="none" stroke="white" stroke-width="1.5" rx="1"/>
+    <line x1="37" y1="55" x2="45" y2="55" stroke="white" stroke-width="1"/>
+    <line x1="37" y1="60" x2="45" y2="60" stroke="white" stroke-width="1"/>
+  </g>
+</svg>
