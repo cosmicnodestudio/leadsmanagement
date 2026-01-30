@@ -6,12 +6,53 @@
 [![MySQL](https://img.shields.io/badge/MySQL-8.0+-00758F.svg)](https://www.mysql.com/)
 [![Docker](https://img.shields.io/badge/Docker-Ready-2496ed.svg)](https://www.docker.com/)
 
-A comprehensive lead management system that helps businesses track, manage, and convert leads efficiently with:
+A comprehensive lead management system that helps businesses track, manage, and convert leads efficiently.
+
+This project simulates a real-world CRM-style system commonly used by sales teams to manage leads and track conversions.
+
+## The Problem
+
+Sales teams and business development departments struggle with scattered lead data across multiple tools and spreadsheets, reducing productivity and causing leads to fall through the cracks. There's no unified place to track lead status, interactions, and conversion metrics.
+
+## What I Built
+
+I built a centralized lead management system that enables:
 
 - **Lead Management** - Complete CRUD operations for lead tracking
 - **Interaction History** - Track all interactions with leads
 - **Secure Authentication** - JWT-based authentication system
 - **Analytics Dashboard** - Overview of leads and conversion metrics
+
+The application features JWT authentication, RESTful APIs, Vue.js frontend, and a fully containerized environment with Docker Compose.
+
+## Technical Challenges
+
+- Structuring a scalable REST API using Flask + Python
+- Designing an efficient database schema with proper relationships
+- Implementing JWT authentication and authorization
+- Creating a responsive Vue.js frontend with state management
+- Containerizing multiple services with Docker Compose
+- Implementing efficient pagination and search
+
+## What I Learned from the Project
+
+- Backend architecture and API design best practices
+- Database relationships and ORM patterns with SQLAlchemy
+- Frontend state management with Pinia
+- Security implementation with JWT tokens
+- Docker containerization and multi-service orchestration
+- Importance of clear API documentation
+
+## What I Would Improve
+
+- Implement role-based access control (RBAC) for teams
+- Add automated testing (unit and integration tests)
+- Create a simple CI/CD pipeline for deployments
+- Add email notifications for lead updates
+- Implement advanced analytics and reporting
+- Add lead scoring and assignment automation
+
+---
 
 ## Technology Stack
 
