@@ -112,12 +112,6 @@ Environment variables are already configured with default development values.
 ```bash
 # Start all services
 docker-compose up -d
-
-# View logs
-docker-compose logs -f
-
-# Stop services
-docker-compose down
 ```
 
 ### 4️⃣ Access the application
@@ -192,4 +186,16 @@ DELETE /api/leads/interactions/<id>     # Delete interaction
 ```
 GET    /api/users/profile           # Get user profile
 PUT    /api/users/profile           # Update profile
+```
+
+---
+
+## Logs and Uninstall
+
+```bash
+# View logs
+docker-compose logs -f
+
+# Stop services
+docker-compose down
 ```
